@@ -1,0 +1,94 @@
+/* not needed you can even delete this file if you want */
+
+body {
+    font-family: 'Montserrat';
+}
+
+.navBarList {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.navBarList :hover {
+    color: rgb(236, 185, 252);
+}
+
+.navBar {
+    background-color: #8C7CE9;
+    padding: 1%;
+    color: rgb(254, 252, 255);
+    font-size: larger;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    font-family: 'Montserrat';
+
+}
+
+img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.developer {
+    width: 120px;
+}
+
+.title {
+    margin-top: 8%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 70px;
+    color:rgb(147,159,223);
+    
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 22px;
+    
+}
+
+.subtitle h4{
+    
+    color: rgba(255, 255, 255, .70);
+    font-family: monospace;
+    letter-spacing: .17em;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .17em solid rgba(255, 255, 255, .70);
+    animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+    to {
+      width: 100%
+    }
+  }
+  
+  @keyframes blinking-cursor {
+    from,
+    to {
+      border-color: transparent
+    }
+    50% {
+      border-color:  rgba(255, 255, 255, .70);
+    }
+  
+}
