@@ -40,7 +40,7 @@ img.bg {
     z-index: -1;
 }
 
-.developer {
+.code {
     width: 120px;
 }
 
@@ -51,18 +51,20 @@ img.bg {
     flex-direction: column;
     align-items: center;
     font-size: 70px;
-    color:rgb(147,159,223);
-    
+    color: rgb(147, 159, 223);
+
 }
+
+
 
 .subtitle {
     text-align: center;
     font-size: 22px;
-    
+
 }
 
-.subtitle h4{
-    
+.subtitle h4 {
+
     color: rgba(255, 255, 255, .70);
     font-family: monospace;
     letter-spacing: .17em;
@@ -70,25 +72,40 @@ img.bg {
     overflow: hidden;
     white-space: nowrap;
     border-right: .17em solid rgba(255, 255, 255, .70);
-    animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
-  }
-  
-  @keyframes typing {
+    animation: typing 8.5s steps(30, end), blinking-cursor .5s step-end infinite;
+}
+
+@keyframes typing {
     from {
-      width: 0
+        width: 0
     }
+
     to {
-      width: 100%
+        width: 100%
     }
-  }
-  
-  @keyframes blinking-cursor {
+}
+
+@keyframes blinking-cursor {
+
     from,
     to {
-      border-color: transparent
+        border-color: transparent
     }
+
     50% {
-      border-color:  rgba(255, 255, 255, .70);
+        border-color: rgba(255, 255, 255, .70);
     }
-  
+
+}
+
+.secondBlock {
+    text-align: center;
+    font-size: 150%;
+    color: rgba(255, 255, 255, .70);
+    margin-top: 15%;
+
+}
+
+.thirdBlock{
+    
 }
